@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- NuGet Package Information -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<!-- Generates the NuGet package on build -->
+		<PackageId>ConfigManager</PackageId>
+		<!-- Unique ID for your package -->
+		<Version>1.0.0</Version>
+		<!-- Initial version of your package -->
+		<Authors>waweiwoowu</Authors>
+		<!-- Your name or your company's name -->
+		<Company></Company>
+		<!-- Your company's name -->
+		<Description>Configuration management library for INI, JSON, and XML files.</Description>
+		<!-- Description of the package -->
+		<PackageTags>config ini json xml</PackageTags>
+		<!-- Tags to help users find your package -->
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<!-- License type (you can adjust this) -->
+		<RepositoryUrl>https://github.com/waweiwoowu/CustomNuGetPackages/tree/main/ConfigManager</RepositoryUrl>
+		<!-- URL of your repository (optional) -->
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<!-- Assembly version -->
+		<FileVersion>1.0.0.0</FileVersion>
+		<!-- File version -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+</Project>
