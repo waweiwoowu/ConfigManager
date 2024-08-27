@@ -238,7 +238,7 @@ namespace ConfigManager
             }
             else
             {
-                throw new ArgumentException($"Section '{section}' already exists.");
+                //throw new ArgumentException($"Section '{section}' already exists.");
             }
         }
 
@@ -356,7 +356,7 @@ namespace ConfigManager
                 }
                 else
                 {
-                    throw new ArgumentException($"Key '{key}' does not exist in section '{section}'.");
+                    //throw new ArgumentException($"Key '{key}' does not exist in section '{section}'.");
                 }
             }
             else
